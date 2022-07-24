@@ -1,0 +1,514 @@
+body{
+	font-family: Roobert, sans-serif;
+	color: black!important;
+	overflow-x: hidden;
+}
+
+.sm-text{
+	font-size: 1rem;
+}
+
+.menu-color{
+	color: #12a633!important;
+}
+
+.text-bg-dark{
+	background-color: black!important;
+}
+
+.header-shadow{
+	box-shadow: 0 1rem 1rem rgba(0,0,0,.175)!important
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+	color: #12a633!important;
+	background-color: white!important;
+}
+
+
+/*Hero Section*/
+
+.hero-main-image{
+	position: relative;
+	z-index: 2;
+    display: block;
+    width: 470px;
+    border-radius: 10px;
+}
+
+.hero-floating-image-1{
+	position: absolute;
+    left: auto;
+    top: 6%;
+    right: -15%;
+    bottom: auto;
+    z-index: 3;
+    display: none;
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    box-shadow: 0 9px 42px 0 rgb(64 69 79 / 10%);
+}
+
+.hero-floating-circle{
+	position: absolute;
+    left: 3%;
+    top: 17%;
+    right: auto;
+    bottom: auto;
+    z-index: 1;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #12a633;
+}
+
+.hero-floating-image-2{
+	position: absolute;
+    left: -13%;
+    top: auto;
+    right: auto;
+    bottom: 18%;
+    z-index: 3;
+    width: 269px;
+    height: 150px;
+
+}
+
+.hero-floating-image-2 img{
+	width: 269px;
+	height: 150px;
+}
+
+
+.hero-circle-1{
+	position: absolute;
+    left: auto;
+    top: auto;
+    right: 10%;
+    bottom: -21%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #c7cad1;
+}
+
+.hero-circle-2{
+	position: absolute;
+    left: auto;
+    top: auto;
+    left: 16%;
+    bottom: -52%;
+    width: 920px;
+    height: 920px;
+    border-radius: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f1f3f6), to(rgba(241, 243, 246, 0.2)));
+    background-image: linear-gradient(180deg, #f1f3f6, rgba(241, 243, 246, 0.2));	
+}
+
+.app-image-size{
+	width: 180px!important;
+}
+
+/*Buy and Sell*/
+
+.buy-sell-image-background{
+	z-index: -1;
+	position: absolute;
+    left: -4%;
+    top: -43px;
+    right: auto;
+    bottom: auto;
+    width: 480px;
+    height: 100%;
+    background-color: #fff;
+    background-image: linear-gradient(135deg, #f1f3f6, #fff 65%);
+}
+
+.buy-sell-img{
+	display: inline-block;
+    width: 140%;
+    max-width: 100%;
+    margin-top: 0px;
+    float: none;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    font-family: Roobert, sans-serif;
+    color: #12a633;
+    -o-object-fit: scale-down;
+    object-fit: scale-down;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;	
+}
+
+/*Save and Earn*/
+.hover-darker:hover{
+	background-color: rgba(155, 127, 127, 0.15)!important;
+}
+
+.save-earn-dec-circle-1{
+	position: absolute;
+    left: 10%;
+    top: 24%;
+    right: auto;
+    bottom: auto;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #12a633;
+}
+
+.save-earn-dec-circle-2{
+    position: absolute;
+    left: 32%;
+    top: auto;
+    right: auto;
+    bottom: 5%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #12a633;	
+}
+
+.save-earn-img-circle-1{
+	position: absolute;
+    left: 16%;
+    top: -2%;
+    right: auto;
+    bottom: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #12a633;	
+}
+
+.save-earn-img-circle-2{
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: -3%;
+    bottom: -3%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffcb3d;
+}
+
+/*Borrow Money*/
+.borrow-money-img-bg{
+	z-index: -1;
+	position: absolute;
+    left: 6%;
+    top: -60px;
+    right: auto;
+    bottom: auto;
+    width: 480px;
+    height: 80%;
+    background-color: #fff;
+    background-image: linear-gradient(135deg, #f1f3f6, #fff 65%);	
+}
+
+/*Pay Section*/
+.pay-section{
+	display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(https://uploads-ssl.webflow.com/61802c0e0fc3d12b496441b6/6185304194dfbed1e1847c02_image%2019.png);
+    background-position: 50% 50%;
+    background-size: cover;	
+}
+
+.pay-end-div{
+	position: absolute;
+	bottom: 0;
+}
+
+/*Top Rated*/
+.top-rated-slide-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;	
+    width: 100vw;
+}
+
+.top-rated-slide-item{
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 17px 17px 200px 0 rgb(64 69 79 / 6%);	
+}
+
+.top-rated-slide-item{
+	animation: top-rated-slide 120s linear infinite;
+}
+
+@keyframes top-rated-slide {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }	
+}
+
+/*Blog*/
+
+.blog-btn{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.blog-container-1{
+	height: 640px
+}
+
+.blog-overlay{
+	position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-image: linear-gradient(114deg, rgba(0, 0, 0, 0.5) 35%, rgba(13, 14, 16, 0.4));		
+}
+
+.blog-image{
+    width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+.blog-side-1{
+    height: inherit;
+    overflow: hidden;
+}
+
+.blog-side-1:hover img{
+    -webkit-transform: scale(1.1,1.1); 
+    transform: scale(1.1,1.1);
+    -webkit-transition: all 0.3s ease-in-out;
+
+}
+
+.blog-side-1-text{
+	position: absolute;
+	color: white;
+	bottom: 0;
+	padding: 20px;
+}
+
+.blog-side-2-text{
+	position: absolute;
+	color: white;
+	bottom: 0;
+	padding: 20px;
+}
+
+/*Footer*/
+.footer-head-con{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	top: -8rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+.footer-head-sec{
+    border-radius: 12px;
+    background-image: url(https://uploads-ssl.webflow.com/61802c0e0fc3d12b496441b6/6185b170e43a40adfcfcd2cc_Join-community.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    padding-bottom: 100px!important;
+}
+
+.footer-bot-sec{
+	padding-top: 320px!important;
+}
+
+.footer-bot-input{
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    border: 1px none #000;
+    border-radius: 12px;
+    background-color: hsla(0, 0%, 100%, 0.2);
+    color: #fff;
+    font-size: 16px;
+    width: 100%;	
+}
+
+.footer-bot-text-side-1{
+	position: absolute;
+	bottom: 65px;
+}
+
+
+/*Custom Spacing and Sizing Utilities and Responsiveness*/
+
+.fs-1-3{
+	font-size: 1.3rem;
+}
+
+@media (max-width: 576px){
+
+	.fs-1-3{
+		font-size: 1rem;
+	}
+
+	.fs-2-8{
+		font-size: 2rem!important;
+	}
+
+	.hero-circle-2{
+		display: none;
+	}
+
+	.hero-main-image{
+		max-width: 100%;
+	}
+
+	.hero-floating-image-2{
+	    left: -2%;
+	    bottom: -5%;
+		width: 220px;
+		height: 150px;
+	}	
+
+	.hero-floating-image-2 img{
+		width: 220px;
+		height: 150px;
+	}	
+
+	.app-image-size{
+		width: 150px!important;
+	}
+
+	.border-hidden{
+		border: none!important;
+	}
+
+	.buy-sell-image-background{
+		width: 388px;
+	}
+
+	.save-earn-dec-circle-1{
+		top: 19%;
+	}	
+
+	.save-earn-dec-circle-2{
+		bottom: 2%;
+	}
+
+	.borrow-money-img-bg{
+		width: 325px;
+		left: 4%;
+    	top: 19px;
+    	height: 100%;
+	}
+
+	.pay-end-div, .blog-btn, .footer-head-con, .footer-bot-text-side-1{
+		position: unset;
+	}
+
+	.blog-container-1{
+		height: 320px;
+	}
+
+	.blog-side-1-text{
+		top: 0;
+	}
+
+	.blog-side-2-text{
+		bottom: 1rem;
+	}
+
+	.footer-head-con{
+		position: unset;
+		padding: 0px;
+	}
+
+	.footer-head-sec{
+		border-radius: 0px;
+	}
+
+	.footer-bot-sec{
+		padding-top: 20px!important;
+	}
+
+
+							
+}
+
+@media (min-width: 768px) and (max-width: 912px){
+	.fs-2-8{
+		font-size: 2.8rem!important;
+	}
+
+
+	.hero-circle-2{
+		display: none;
+	}	
+
+	.border-hidden{
+		border: none!important;
+	}
+
+	.app-image-size{
+		width: 180px!important;
+	}
+
+	.hero-floating-image-2{
+	    left: -10%;
+	    bottom: -5%;
+		width: 220px;
+		height: 150px;
+	}	
+
+	.hero-floating-image-2 img{
+		width: 220px;
+		height: 150px;
+	}
+
+	.borrow-money-img-bg{
+	    height: 100%;
+	    left: -6%;
+	    top: 13%;
+	}
+
+	.pay-end-div, .blog-btn, .footer-bot-text-side-1{
+		position: unset;
+	}
+
+	
+
+	.blog-side-2-text{
+    	padding: 0px 10px 0px 10px;
+	}
+
+	.footer-head-con{
+		position: unset;
+		padding: 0px;
+	}
+
+	.footer-head-sec{
+		border-radius: 0px;
+	}
+
+	.footer-bot-sec{
+		padding-top: 20px!important;
+	}									
+}
+
+@media (min-width: 1200px){
+	.hero-main-image{
+		margin-right: auto!important;
+    	margin-left: auto!important;
+	}
+
+}
